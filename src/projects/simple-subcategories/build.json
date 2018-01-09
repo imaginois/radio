@@ -5,7 +5,7 @@
     ],
     "sass" : [
         "../../common/scss/*.scss",
-        "firetv.scss"
+        "*.scss"
     ],
     "assets" : [
         "../../common/images/icon_leftnav_arrowDown.png",
