@@ -6,7 +6,7 @@
         Model: JSONMediaModel,
         PlayerView: PlayerView,
         PlaylistView: PlaylistPlayerView,
-        dataURL: "./assets/genericSubCategoriesData.json",
+        dataURL: "./assets/model.json",
         showSearch: true,
         displayButtons:true
     };

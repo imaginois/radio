@@ -1,5 +1,5 @@
 {
-    "appTitle" : "Simple SubCategories Template",
+    "appTitle" : "Minerva Fire TV App",
     "html" : [
         "../../common/html/index.html"
     ],
@@ -23,7 +23,7 @@
         "../../common/images/btn_previewPlay.png",
         "../../common/assets/video/*",
         "../../common/assets/images/*",
-        "genericSubCategoriesData.json"
+        "model.json"
     ],
     "appJS" : [
         "../../common/js/util.js",
