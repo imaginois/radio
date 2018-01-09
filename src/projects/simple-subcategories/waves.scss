@@ -21,7 +21,7 @@ $color-overlay-text : $custom-color-base-fg;
 $color-title-text : #B3DAF2;
 $color-meta-primary-text : darken($custom-color-base-fg, 50%);
 $color-meta-secondary-text: darken($custom-color-base-fg, 30%);
-$color-description-text : $custom-color-base-fg;
+$color-description-text : darken($custom-color-base-fg, 10%);
 
 $color-menu-base-bg : transparent;
 

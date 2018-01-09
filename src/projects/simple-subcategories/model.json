@@ -9,7 +9,15 @@
                 {"type": "folder", "id":"2"}, 
                 {"type": "folder", "id":"11"},
                 {"type": "folder", "id":"12"},
-                {"type": "folder", "id":"13"}
+                {"type": "folder", "id":"13"},
+                {"type": "folder", "id":"14"},
+                {"type": "folder", "id":"15"},
+                {"type": "folder", "id":"16"},
+                {"type": "folder", "id":"17"},
+                {"type": "folder", "id":"18"},
+                {"type": "folder", "id":"19"},
+                {"type": "folder", "id":"20"},
+                {"type": "folder", "id":"21"}
             ]
         },
         {
@@ -21,27 +29,27 @@
         },
         {
             "id": "3",
-            "title": "Show 1",
+            "title": "Stranger Things",
             "imgURL": "assets/l5.jpg",
             "pubDate": "Sat, 29 Mar 2014 22:11:18 GMT",
-            "description": "Show 1 Description",
+            "description": "This thrilling Netflix original drama stars Golden Globe-winning actress Winona Ryder as Joyce Byers, who lives in a small Indiana town in 1983 -- inspired by a time when tales of science fiction captivated audiences.",
             "contents": [{"type": "folder", "id":"6"}, {"type": "folder", "id":"7"}, {"type": "folder", "id":"8"},{"type": "folder", "id":"9"}, {"type": "folder", "id":"10"}]
         },
         {
             "id": "4",
-            "title": "Show 2",
+            "title": "Residen Evil : Biohazard",
             "imgURL": "assets/l6.jpg",
             "pubDate": "Sat, 29 Mar 2014 22:11:18 GMT",
-            "description": "Show 2 Description",
+            "description": "Based on the popular video game, Milla Jovovich and Michelle Rodriguez star as the leaders of a commando team who must break into 'the hive', a vast underground genetics laboratory",
             "contents": [{"type": "folder", "id":"6"}, {"type": "folder", "id":"7"}, {"type": "folder", "id":"8"},{"type": "folder", "id":"9"}, {"type": "folder", "id":"10"}]
 
         },
         {
             "id": "5",
-            "title": "Show 3",
+            "title": "X-Men: First Class",
             "imgURL": "assets/l10.jpg",
             "pubDate": "Sat, 29 Mar 2014 22:11:18 GMT",
-            "description": "Show 3 Description",
+            "description": "They are children of the atom, homo superior, the next link in the chain of evolution. Each was born with a unique genetic mutation, which at puberty manifested itself in extraordinary powers.",
             "contents": [{"type": "folder", "id":"6"}, {"type": "folder", "id":"7"}, {"type": "folder", "id":"8"},{"type": "folder", "id":"9"}, {"type": "folder", "id":"10"}]
 
         },
@@ -113,15 +121,15 @@
         },
         {
             "id": "11",
-            "title": "Newest Season",
+            "title": "Continue Watching",
             "imgURL": "assets/l6.jpg",
             "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
             "description": "Newest season example description here.",
             "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
-                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
-                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
                          {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
                          {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
                          {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
                         ]
         },
@@ -131,12 +139,13 @@
             "imgURL": "assets/l6.jpg",
             "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
             "description": "Newest season example description here.",
-            "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+            "contents": [
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"},
                          {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
                          {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
-                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
-                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
-                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"} 
                         ]
         },
         {
@@ -145,11 +154,130 @@
             "imgURL": "assets/l6.jpg",
             "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
             "description": "Newest season example description here.",
-            "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+            "contents": [
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
                          {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
                          {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "14",
+            "title": "Thrilers",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
                          {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
                          {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "15",
+            "title": "Trending",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"},
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"} 
+                        ]
+        },
+        {
+            "id": "16",
+            "title": "Comedy Movies",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "17",
+            "title": "Top Rated",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"},
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"} 
+                        ]
+        },
+        {
+            "id": "18",
+            "title": "Most Watched",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "19",
+            "title": "Thrilers",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "20",
+            "title": "Drama Movies",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"},
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"} 
+                        ]
+        },
+        {
+            "id": "21",
+            "title": "Romantic/Comedy",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
                          {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
                         ]
         }

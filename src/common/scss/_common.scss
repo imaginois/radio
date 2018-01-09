@@ -255,8 +255,8 @@ div {
     }
     .one-D-summary-description {
         color       : $color-description-text;
-        font-style  : italic;
-        font-size   : 1.1em;
+        font-style  : normal;
+        font-size   : 1.2em;
         overflow    : hidden;
         align-items : center;
         @include display-box;
