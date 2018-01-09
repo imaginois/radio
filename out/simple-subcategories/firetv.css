@@ -3,17 +3,28 @@
 body {
   background: linear-gradient(to bottom, #000000 0%, #000000 20%, #4c4c4c 100%) !important; }
 
-.app-logo img {
-  display: none; }
+.app-top-bar {
+  border-bottom: 1px solid white; }
 
-.app-logo:before {
-  content: "SAMPLE THEME 5"; }
+.user-name:before {
+  content: "Greetings, Metodi Deribanov "; }
+
+.user-menu:before {
+  content: "\2764  Profile  |  \2630  Settings  |  \27A4  Logout"; }
 
 .app-logo {
-  font-size: 2.2em;
+  font-size: 1em;
   font-weight: lighter;
   text-align: right;
   color: white; }
+
+.user-name,
+.user-menu {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: right;
+  color: white;
+  opacity: 0.65; }
 
 .summaryTitle {
   text-transform: uppercase; }
@@ -100,8 +111,18 @@ div {
 
 .app-logo {
   position: absolute;
-  bottom: -7px;
-  right: 150px; }
+  top: 90px;
+  left: 150px; }
+
+.user-name {
+  position: absolute;
+  bottom: 100px;
+  right: 100px; }
+
+.user-menu {
+  position: absolute;
+  bottom: 25px;
+  right: 100px; }
 
 .leftnav-main-container {
   position: absolute;
