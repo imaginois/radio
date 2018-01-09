@@ -1,3 +1,48 @@
+/* Custom Styles: */
+/* style overrides */
+body {
+  background: linear-gradient(to bottom, #000000 0%, #000000 20%, #4c4c4c 100%) !important; }
+
+.app-logo img {
+  display: none; }
+
+.app-logo:before {
+  content: "SAMPLE THEME 5"; }
+
+.app-logo {
+  font-size: 2.2em;
+  font-weight: lighter;
+  text-align: right;
+  color: white; }
+
+.summaryTitle {
+  text-transform: uppercase; }
+
+.leftnav-menulist-expanded {
+  background: linear-gradient(to right, #000000 0%, #000000 40%, transparent 100%) !important; }
+
+.leftnav-menu-scrolling-list {
+  -webkit-transition-property: -webkit-transform, top;
+  -webkit-transition-duration: 0.25s;
+  -webkit-transition-timing-function: linear; }
+
+.leftnav-list-item-static {
+  font-size: 1.6em !important;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.25s;
+  opacity: 0.40;
+  border: none !important; }
+
+.leftnav-list-item-highlighted, .leftnav-list-item-selected {
+  opacity: 1; }
+
+.leftnav-list-item-chosen {
+  opacity: 0.65; }
+
+.leftnav-list-item-highlighted {
+  background: transparent url("assets/icon_leftnav_arrowDown.png") no-repeat left 100px center !important; }
+
+/* End Custom Styles */
 /**
  * CSS variables for use in the firetv.scss file
  *
@@ -33,7 +78,7 @@ body {
   margin: 0;
   font-size: 20pt;
   font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
-  background: #5a656f url("assets/bg_app.jpg") no-repeat left top;
+  background: #000000 none no-repeat left top;
   background-size: 100% 100%; }
 
 div {
@@ -51,7 +96,7 @@ div {
   position: absolute;
   width: 100%;
   height: 240px;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: transparent; }
 
 .app-logo {
   position: absolute;
@@ -72,7 +117,7 @@ div {
   height: 100%;
   padding: 0px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.9); }
+  background-color: transparent; }
 
 .leftnav-menulist-expanded {
   height: 100%;
@@ -81,7 +126,7 @@ div {
 
 .leftnav-menulist-collapsed {
   top: 148px;
-  height: 92px;
+  height: 86px;
   z-index: 10; }
 
 .leftnav-collapsed-highlight {
@@ -96,7 +141,7 @@ div {
   margin-top: -148px; }
 
 .leftnav-menu-scrolling-list {
-  color: #b9bbbd; }
+  color: white; }
 
 .leftnav-list-item-static.leftnav-list-item-chosen.subcat-header {
   position: absolute;
@@ -114,7 +159,7 @@ div {
   padding: 0 50px 0 150px;
   overflow: hidden;
   margin-bottom: 2px;
-  background-color: rgba(232, 232, 232, 0.1);
+  background-color: transparent;
   -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   transition-property: opacity;
@@ -140,23 +185,23 @@ div {
   margin-top: 148px; }
 
 .leftnav-list-item-highlighted {
-  color: #e8e8e8;
+  color: white;
   border-width: 1px 1px 1px 0px;
-  background: #000000 url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center;
+  background: transparent none no-repeat right 40px center;
   -webkit-filter: brightness(200%);
   -moz-filter: brightness(200%);
   filter: brightness(200%); }
 
 .leftnav-list-item-container .leftnav-list-item-selected {
-  color: #000000;
-  background: #ffffff url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
+  color: white;
+  background: transparent none no-repeat right 40px center; }
 
 .leftnav-list-item-chosen {
-  border-color: #3f484f;
+  border-color: transparent;
   border-style: solid;
   border-width: 1px 1px 1px 0px;
-  color: #e8e8e8;
-  background: #3f484f url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
+  color: white;
+  background: transparent none no-repeat right 40px center; }
 
 .search-icon {
   height: 50px;
@@ -165,9 +210,9 @@ div {
 .leftnav-search-box {
   border: none;
   width: 100%;
-  color: #e8e8e8;
+  color: white;
   padding-left: 140px;
-  background-image: url("assets/search.png");
+  background-image: none;
   background-position: 85px 30px;
   background-size: 40px 40px;
   background-repeat: no-repeat;
@@ -177,18 +222,18 @@ div {
   outline-width: 0; }
 
 .leftnav-search-box.leftnav-list-item-highlighted {
-  color: #e8e8e8;
-  border-color: #e8e8e8;
+  color: white;
+  border-color: white;
   border-style: solid;
   border-width: 1px 1px 1px 0px;
-  background: #000000 url("assets/icon_leftnav_arrowDown.png") no-repeat right 40px center; }
+  background: transparent none no-repeat right 40px center; }
 
 .one-d-no-items-container {
   position: absolute;
   display: none;
   top: 300px;
   left: 200px;
-  color: #e8e8e8;
+  color: #B3DAF2;
   font-size: 3em; }
 
 .one-D-details-container {
@@ -228,10 +273,10 @@ div {
   top: 690px;
   width: 80%;
   left: 150px;
-  color: #e8e8e8; }
+  color: #B3DAF2; }
   .one-D-details-summary-text .one-D-summary-title {
     line-height: 1.4;
-    color: #e8e8e8;
+    color: #B3DAF2;
     font-size: 1.8em;
     font-family: "Helvetica Neue Medium", "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
     height: 62px;
@@ -255,13 +300,13 @@ div {
     font-weight: 200;
     height: 30px;
     font-size: 1em;
-    color: #b9bbbd; }
+    color: #b3b3b3; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-now-live {
       color: #FF704D; }
     .one-D-details-summary-text .one-D-summary-pubdate .time-upcoming {
       color: #66E066; }
   .one-D-details-summary-text .one-D-summary-description {
-    color: #e8e8e8;
+    color: #FFFFFF;
     font-style: italic;
     font-size: 1.1em;
     overflow: hidden;
@@ -306,8 +351,8 @@ div {
 .detail-item-button-selected {
   overflow: hidden;
   margin-top: 0px;
-  color: #e8e8e8;
-  background-color: #000000;
+  color: #555C73;
+  background-color: white;
   border: solid;
   border-color: #dadada;
   border-width: 1px;
@@ -316,8 +361,8 @@ div {
   box-shadow: 0px 10px 18px 3px rgba(0, 0, 0, 0.44); }
 
 .detail-item-button-static {
-  color: #b9bbbd;
-  background-color: #394149;
+  color: white;
+  background-color: #555C73;
   line-height: 45px; }
 
 #one-D-shoveler-container {
@@ -424,7 +469,7 @@ div {
   padding: 0 8%;
   bottom: 0;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   transition: 0.5s;
@@ -441,18 +486,18 @@ div {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid #25435a;
+  border: 1px solid #555C73;
   border-radius: 6px;
-  background-color: #707070; }
+  background-color: #555C73; }
 
 .player-controls-timeline-playhead {
   position: absolute;
   width: 0%;
   height: 10px;
-  border: 1px solid #394149;
+  border: 1px solid white;
   margin-top: -1px;
   border-radius: 6px;
-  background-color: #e8e8e8; }
+  background-color: white; }
 
 .player-controls-skip-indicator {
   position: absolute;
@@ -460,7 +505,7 @@ div {
   top: -100px;
   left: 60px;
   font-size: 1.8em;
-  color: #e8e8e8;
+  color: gray;
   display: flex;
   background-size: 100% 100%;
   background-image: url("assets/skip_indicator.png");
@@ -495,12 +540,12 @@ div {
   font-size: 1.6em; }
 
 .player-controls-timestamp-curtime {
-  color: #e8e8e8;
+  color: gray;
   display: inline-block;
   float: left; }
 
 .player-controls-timestamp-totaltime {
-  color: #b9bbbd;
+  color: #b3b3b3;
   display: inline-block;
   float: right; }
 
@@ -508,7 +553,7 @@ div {
   position: absolute;
   top: 80px;
   height: 59px;
-  color: #e8e8e8;
+  color: #B3DAF2;
   font-size: 1.8em;
   font-family: "Helvetica Neue Medium", "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
   margin-top: 20px;
@@ -536,7 +581,7 @@ div {
   top: 170px;
   width: 60%;
   height: 72px;
-  color: #e8e8e8;
+  color: #FFFFFF;
   font-style: italic;
   font-size: 1.1em;
   display: -webkit-box;
@@ -568,8 +613,8 @@ div {
   width: 30%;
   right: 0;
   display: flex;
-  color: #b9bbbd;
-  background-color: rgba(0, 0, 0, 0.8);
+  color: #b3b3b3;
+  background-color: rgba(0, 0, 0, 0.7);
   flex-direction: column; }
 
 .next-video-text {
@@ -577,7 +622,7 @@ div {
   margin-left: 50px;
   font-weight: bold;
   font-size: 1.1em;
-  color: #e8e8e8; }
+  color: gray; }
 
 .next-video-thumbnail {
   height: 250px;
@@ -588,7 +633,7 @@ div {
   .next-video-thumbnail img {
     width: 100%;
     height: 100%;
-    border: solid 1px #ffffff; }
+    border: solid 1px white; }
 
 .next-video-thumbnail:after {
   position: relative;
@@ -609,7 +654,7 @@ div {
 .next-video-title {
   margin-left: 50px;
   margin-top: 30px;
-  color: #e8e8e8;
+  color: #B3DAF2;
   font-weight: lighter;
   font-size: 2.5em;
   line-height: 1; }
@@ -619,7 +664,7 @@ div {
   margin-left: 50px;
   overflow: hidden;
   font-size: 1.1em;
-  color: #e8e8e8;
+  color: #FFFFFF;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 5;
@@ -639,7 +684,7 @@ div {
   background-color: #000000; }
 
 .app-overlay-message {
-  color: #e8e8e8;
+  color: #FFFFFF;
   text-align: center;
   margin-top: 25%; }
 

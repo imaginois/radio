@@ -5,7 +5,12 @@
             "title": "root",
             "imgURL": "assets/l8.jpg",
             "description": "",
-            "contents": [{"type": "folder", "id":"2"}, {"type": "folder", "id":"11"}]
+            "contents": [
+                {"type": "folder", "id":"2"}, 
+                {"type": "folder", "id":"11"},
+                {"type": "folder", "id":"12"},
+                {"type": "folder", "id":"13"}
+            ]
         },
         {
             "id": "2",
@@ -109,6 +114,34 @@
         {
             "id": "11",
             "title": "Newest Season",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "12",
+            "title": "New Releases",
+            "imgURL": "assets/l6.jpg",
+            "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
+            "description": "Newest season example description here.",
+            "contents": [{"type": "media", "id": "37a30514-f956-4da1-4063-9e5276e4b79f"}, 
+                         {"type": "media", "id": "e47f9ec3-384e-dc74-09d4-57bc60afce3f"},
+                         {"type": "media", "id": "510cf231-b858-6445-a97b-61cfeac62875"}, 
+                         {"type": "media", "id": "e0299a14-d5f4-406f-b1d0-84442e6ee557"}, 
+                         {"type": "media", "id": "9ce5e269-42b1-96e9-d121-0a4c4d1fb84f"}, 
+                         {"type": "media", "id": "749dc567-f942-3d3b-ca31-ae800f81ef8f"}
+                        ]
+        },
+        {
+            "id": "13",
+            "title": "Most Watched",
             "imgURL": "assets/l6.jpg",
             "pubDate": "Sun, 26 May 2013 07:22:41 GMT",
             "description": "Newest season example description here.",
